@@ -1,0 +1,9 @@
+/* Apuntar a etiquetas es mas general
+    Apuntar con clase es un poco mas especifico, solo a algunos
+    Apuntar a un id es el mas especifico, y se debe usar por para apuntar a uno
+*/
+
+#saludo {
+    color: yellow;
+    font-size: 16px;
+}
