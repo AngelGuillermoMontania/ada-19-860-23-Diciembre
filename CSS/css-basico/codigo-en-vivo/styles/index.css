@@ -3,7 +3,42 @@
     Apuntar a un id es el mas especifico, y se debe usar por para apuntar a uno
 */
 
-#saludo {
-    color: yellow;
-    font-size: 16px;
+body {
+    background-image: url("./paisaje2.gif");
+    background-position: center;
+    background-size: auto;
+}
+
+div .soloAlgunos {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;  /* REM  */
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Seymour One', sans-serif;
+    text-shadow: 0px 1px 8px rgba(47,200,147,1);
+    letter-spacing: 10px;
+    
+}
+
+.container-article {
+    background-color: rgba(127, 127, 127, 0);
+}
+
+.container-article section .unoSolo {
+    font-size: 40px;
+    color: white;
+}
+
+.container-article section .contain-explicacion {
+    background-color: rgba(0, 0, 255, 0.136);
+}
+
+.container-article section .contain-explicacion .explicacion p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
 }
