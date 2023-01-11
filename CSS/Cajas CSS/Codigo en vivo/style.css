@@ -1,0 +1,59 @@
+body .primer-div {
+    /* padding: 10px;  */  /* 20 px */
+    /* 
+        Si escribo una sola medida, toma los 4 lados 
+        Si escribo dos medidas   padding: 40px 20px;
+        Si escribo 3 medidas  padding: 40px 20px 80px   40arriba, 60 alos lados 80 abajo;
+    */
+
+    /* 
+        un padding de 10px, un borde de 5px, y un ancho total de la caja de 350
+    */
+   /*  border: black solid 5px; */   /* 10px */
+    /* 
+        Debo indicar el tipo de borde
+        el ancho del borde
+        y el color del borde
+    */
+    display: inline-block;
+
+    /* 350px - 30px */
+    /* 
+        Si escribo una sola medida, toma los 4 lados 
+        Si escribo dos medidas   padding: 40px 20px;
+        Si escribo 3 medidas  padding: 40px 20px 80px   40arriba, 60 alos lados 80 abajo;
+    */
+
+    box-shadow: -10px 10px 26px -3px rgba(0,0,0,1);
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+}
+
+body .primer-div .hijo-primer-div{
+    height: 100%; /* 50px */
+    /* 
+    % medida relativa
+    px, rem son medidas absolutas
+    */
+    width: 80%;
+    background-color: rgb(94, 94, 97);
+    display: inline-block;
+    box-shadow: -10px 10px 26px -3px rgba(0,0,0,1);
+    overflow: auto;
+}
+
+
+/* body .segundo-div {
+    height: 12rem;
+    width: 12rem;
+    background-color: red;
+    display: inline-block;
+    margin: 20px;
+} */
+
+/* 
+Block, ocupa el 100% del ancho de la pantalla, y me permite colocarle alto y ancho
+inline-block, no ocupa el 100% de la pantalla, pero me permite colocarle alto y ancho
+inline: NO FUNCINA ALTO Y ANCHO, se acomoda solo a su contenido
+*/
