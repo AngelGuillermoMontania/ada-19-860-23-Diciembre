@@ -1,0 +1,36 @@
+.box-1 {
+    background-color: blue;
+    height: 15rem;
+    width: 15rem;
+}
+
+@media (min-width: 768px) {
+    
+    .box-1 {
+        background-color: red;
+        height: 25rem;
+        width: 25rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    
+    .box-1 {
+        background-color: green;
+        height: 35rem;
+        width: 35rem;
+    }
+
+}
+
+
+
+/* Medidas absolutas 
+px, rem
+
+Medidas Relativas
+%
+vh --->  ViewPort-Height ---> Alto de pantalla
+vw ---> ViewPort-Widht ---> Ancho de pantalla
+*/
