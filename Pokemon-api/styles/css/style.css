@@ -130,6 +130,17 @@ footer {
         font-size: 1.5rem;
     }
 
+    .desactived {
+        color: rgba(127, 126, 126, 0.485);
+        background-color: rgba(0, 0, 0, 0.386);
+    }
+
+    .desactived :hover {
+        cursor: default;
+        transform: scale(1);
+    }
+
+
 }
 
 @media (min-width: 1024px) {
@@ -168,6 +179,7 @@ footer {
         font-size: 1rem;
     }
 
+   
     main .contain-pages button:hover {
         cursor: pointer;
         transform: scale(1.1);
@@ -177,7 +189,11 @@ footer {
         height: 8rem;
     }
 
+    
+    
 }
+
+
 
 @media (min-width: 1440px) {
     
